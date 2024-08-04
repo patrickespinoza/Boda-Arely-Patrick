@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Portada from './componentes/portada.jsx'
+import Portada from './portada'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <main>

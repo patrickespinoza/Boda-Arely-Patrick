@@ -1,4 +1,4 @@
-import Countdown from "../componentes-encabezado/encabeza-cuenta";
+import Countdown from "./componentes-encabezado/encabeza-cuenta";
 
 export default function Portada () {
 
@@ -7,7 +7,7 @@ export default function Portada () {
         <div className="w-full">
           <section className="relative w-full h-screen flex flex-col items-center justify-center text-white">
           <img
-          src="/public/IMG_3539.JPG"
+          src="/IMG_3539.JPG"
           alt="Fondo"
           className="absolute inset-0 w-full h-full object-cover"
         />
