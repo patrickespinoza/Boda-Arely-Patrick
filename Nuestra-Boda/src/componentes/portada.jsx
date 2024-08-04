@@ -7,7 +7,7 @@ export default function Portada () {
         <div className="w-full">
           <section className="relative w-full h-screen flex flex-col items-center justify-center text-white">
           <img
-          src="../imagenes/IMG_3539.JPG"
+          src="/imagenes/IMG_3539.JPG"
           alt="Fondo"
           className="absolute inset-0 w-full h-full object-cover"
         />
