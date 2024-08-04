@@ -6,11 +6,11 @@ export default function Portada () {
     return (
         <div className="w-full">
           <section className="relative w-full h-screen flex flex-col items-center justify-center text-white">
-            <img
-              src="../imagenes/IMG_3539.JPG"
-              alt="Fondo"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
+          <img
+          src="../imagenes/IMG_3539.JPG"
+          alt="Fondo"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
     
             <div className="relative bg-opacity-50 rounded-lg w-full h-full justify-center items-center flex flex-col p-4">
               <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">
