@@ -1,4 +1,4 @@
-import Countdown from "../../componentes-encabezado/encabeza-cuenta"
+import Countdown from "../componentes-encabezado/encabeza-cuenta";
 
 export default function Portada () {
 
