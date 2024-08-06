@@ -40,7 +40,7 @@ const Countdown= ({targetDate}) => {
     );
   });
   return (
-    <div className="p-4 text-2xl sm:text-2xl md:text-4xl lg:text-8xl bg-black bg-opacity-50">
+    <div className="p-4 sm:text-xl md:text-4xl lg:text-5xl bg-black bg-opacity-50">
       {timerComponents.length ? timerComponents : <span>Time's up!</span>}
     </div>
   );

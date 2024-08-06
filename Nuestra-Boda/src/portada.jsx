@@ -9,7 +9,7 @@ export default function Portada () {
           <img
           src="/IMG_3539.JPG"
           alt="Fondo"
-          className="absolute inset-0 w- h-full object-cover md:w-full lg:w-full"
+          className="absolute inset-0 w-full h-full object-cover md:w-full lg:w-full"
         />
     
             <div className="relative bg-opacity-50 rounded-lg w-full h-full justify-center items-center flex flex-col p-4">
@@ -22,7 +22,7 @@ export default function Portada () {
               <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">Arely</p>
               <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">&</p>
               <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">Patrick</p>
-              <div className="mt-4">
+              <div className="mt-4 ">
                 <Countdown targetDate="2025-01-11T00:00:00" />
               </div>
             </div>
