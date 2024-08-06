@@ -9,7 +9,7 @@ export default function Portada () {
           <img
           src="/IMG_3539.JPG"
           alt="Fondo"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w- h-full object-cover md:w-full lg:w-full"
         />
     
             <div className="relative bg-opacity-50 rounded-lg w-full h-full justify-center items-center flex flex-col p-4">
