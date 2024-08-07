@@ -12,7 +12,7 @@ export default function Portada () {
           className="absolute inset-0 w-full h-full object-cover md:w-full lg:w-full"
         />
     
-            <div className="relative bg-opacity-50 rounded-lg w-full h-full justify-center items-center flex flex-col p-4 gap-6">
+            <div className="relative bg-opacity-50 rounded-lg w-full h-full justify-center items-center flex flex-col p-4 gap-4">
               <h1 className="p-4 text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold">
                 Nuestra Boda
               </h1>
