@@ -28,7 +28,7 @@ const Carousel = () => {
       >
         {images.map((src, i) => (
           <div key={i} className="flex-shrink-0 w-full h-full flex flex-col items-center justify-center">
-            <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src={src} alt={`Imagen ${i + 1}`} />
+            <img className="lg:h-28 lg:w-28 sm:h-28 sm:w-28 md:h-28 md:w-28 p-3" src={src} alt={`Imagen ${i + 1}`} />
           </div>
         ))}
       </div>

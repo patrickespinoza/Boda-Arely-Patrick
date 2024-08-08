@@ -18,18 +18,20 @@ export default function Intinerario () {
                 <p class="text-lg sm:text-xl p-7 text-center">Formal</p>
             </div>
             <div class="flex flex-col items-center justify-center gap-3">
-            <h1 class="text-xl sm:text-2xl font-bold p-5">NOSOTROS</h1>
+            <h1 class="text-xl sm:text-2xl font-bold p-5">NUESTROS MOMENTOS</h1>
                 <Carousel/>
             </div>
             <div class="flex flex-col items-center justify-center gap-3">
                 <h1 class="text-xl sm:text-2xl font-bold p-5">REGALOS</h1>
                 <img class="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/caja-de-regalo.png" alt="dress code" />
-                <p class="text-lg sm:text-xl p-7 text-center">Formal</p>
+                <p class="text-lg sm:text-xl p-7 text-center">Si deseas darnos un regalo, te dejamos unos tips</p>
+                <button className="bg-gray-400 rounded-md p-3 w-32 h-8 flex items-center justify-center text-white">Tips</button>
             </div>
             <div class="flex flex-col items-center justify-center gap-3">
                 <h1 class="text-xl sm:text-2xl font-bold p-5">CONFIRMAR ASISTENCIA</h1>
                 <img class="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/anillos-de-boda.png" alt="dress code" />
-                <p class="text-lg sm:text-xl p-7 text-center">Formal</p>
+                <p class="text-lg sm:text-xl p-7 text-center">Confirma tu asistencia antes de 11 de diciembre</p>
+                <button className="bg-gray-400 rounded-md p-3 w-32 h-11 flex items-center justify-center text-white">Confirmar Asistencia</button>
             </div>
         </div>
     </div>

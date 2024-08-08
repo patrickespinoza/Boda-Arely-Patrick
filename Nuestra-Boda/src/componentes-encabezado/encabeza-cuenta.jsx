@@ -41,7 +41,7 @@ const Countdown= ({targetDate}) => {
   });
   return (
     <div className="p-4 sm:text-lg md:text-4xl lg:text-5xl bg-black bg-opacity-50 text-white flex flex-col items-center">
-            <div className="flex space-x-12">
+            <div className="flex space-x-10">
                 {Object.keys(timeLeft).map((interval) => (
                     <div key={interval} className="flex flex-col items-center gap-2">
                         <span className="">{timeLeft[interval]}</span>
