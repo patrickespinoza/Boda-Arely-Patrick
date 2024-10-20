@@ -28,7 +28,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-[500px] h-[400px] overflow-hidden flex justify-center items-center">
+    <div className="relative w-[400px] h-[400px] overflow-hidden flex justify-center items-center">
       <div
         ref={carouselRef}
         className="absolute flex transition-transform duration-2000 ease-in-out"
@@ -36,7 +36,7 @@ const Carousel = () => {
       >
         {images.map((src, i) => (
           <div key={i} className="flex-shrink-0 w-full h-full flex items-center justify-center">
-            <img className="h-[400px] w-[500px] object-cover" src={src} alt={`Imagen ${i + 1}`} />
+            <img className="h-[400px] w-[400px] object-cover" src={src} alt={`Imagen ${i + 1}`} />
           </div>
         ))}
       </div>
