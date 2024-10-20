@@ -48,7 +48,7 @@ export default function Intinerario() {
           <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/tarta-de-boda.png" alt="imagen del salon" />
           <p className="p-3 text-center">Salon Maria Bonita Event Center</p>
           <p className="p-3 text-center">C.2 Pte. 905, Libertad, 72130 Heroica Puebla de Zaragoza, Pue</p>
-          <a className="bg-gray-400 rounded-md p-3 w-32 h-8 flex items-center justify-center text-white" href="https://www.google.com/maps/place/Eventos+Mar%C3%ADa+Bonita+Puebla/@19.0703659,-98.24125,17z/data=!3m1!4b1!4m6!3m5!1s0x85cfc79834a1cd75:0xb0d61abeb78ef0fe!8m2!3d19.0703608!4d-98.2386751!16s%2Fg%2F11mtddfrw5?entry=ttu">Ver Dirección</a>
+          <a className="bg-blue-700 rounded-md p-3 w-32 h-8 flex items-center justify-center text-white" href="https://www.google.com/maps/place/Eventos+Mar%C3%ADa+Bonita+Puebla/@19.0703659,-98.24125,17z/data=!3m1!4b1!4m6!3m5!1s0x85cfc79834a1cd75:0xb0d61abeb78ef0fe!8m2!3d19.0703608!4d-98.2386751!16s%2Fg%2F11mtddfrw5?entry=ttu">Ver Dirección</a>
         </div>
 
         {/* Sección de Vestimenta */}
@@ -69,7 +69,7 @@ export default function Intinerario() {
           <h1 className="text-xl sm:text-2xl font-bold p-5">REGALOS</h1>
           <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/caja-de-regalo.png" alt="dress code" />
           <p className="text-lg sm:text-xl p-7 text-center">Si deseas darnos un regalo, te dejamos unos tips</p>
-          <button className="bg-gray-400 rounded-md p-3 w-32 h-8 flex items-center justify-center text-white">Tips</button>
+          <button className="bg-blue-700 rounded-md p-3 w-32 h-8 flex items-center justify-center text-white">Tips</button>
         </div>
 
         {/* Sección de Confirmación de Asistencia */}
@@ -77,7 +77,7 @@ export default function Intinerario() {
           <h1 className="text-xl sm:text-2xl font-bold p-5">CONFIRMAR ASISTENCIA</h1>
           <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/anillos-de-boda.png" alt="dress code" />
           <p className="text-lg sm:text-xl p-7 text-center">Confirma tu asistencia antes de 11 de diciembre</p>
-          <button className="bg-gray-400 rounded-md p-3 w-32 h-11 flex items-center justify-center text-white" onClick={() => setIsOpen(true)}>Confirmar Asistencia</button>
+          <button className="bg-blue-700 rounded-md p-3 w-32 h-11 flex items-center justify-center text-white" onClick={() => setIsOpen(true)}>Confirmar Asistencia</button>
         </div>
       </div>
 
@@ -101,8 +101,8 @@ export default function Intinerario() {
               onChange={(e) => setNumPeople(e.target.value)}
               className="border p-2 rounded w-full"
             />
-            <button className="bg-gray-400 rounded-md p-2 mt-3 w-full text-white" onClick={handleConfirm}>Enviar Confirmación</button>
-            <button className="bg-red-400 rounded-md p-2 mt-3 w-full text-white" onClick={() => setIsOpen(false)}>Cerrar</button>
+            <button className="bg-blue-500 rounded-md p-2 mt-3 w-full text-white" onClick={handleConfirm}>Enviar Confirmación</button>
+            <button className="bg-red-600 rounded-md p-2 mt-3 w-full text-white" onClick={() => setIsOpen(false)}>Cerrar</button>
           </div>
         </div>
       )}
