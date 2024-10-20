@@ -1,7 +1,7 @@
 export default function Portada() {
   return (
     <div className="w-full">
-      <section className="relative w-full h-full md:h-screen flex flex-col items-center justify-center text-white">
+      <section className="relative w-full h-[calc(100vh-240px)] md:h-screen flex flex-col items-center justify-center text-white">
         <img
           src="/IMG_3539.JPG"
           alt="Fondo"
