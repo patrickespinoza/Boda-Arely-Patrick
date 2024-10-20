@@ -40,7 +40,8 @@ const Countdown= ({targetDate}) => {
     );
   });
   return (
-    <div className="p-4 sm:text-lg md:text-4xl lg:text-5xl bg-black bg-opacity-50 text-white flex flex-col items-center">
+    <section>
+    <div className="p-4 sm:text-lg md:text-4xl lg:text-5xl text-black flex flex-col items-center rounded-lg border-8 border-yellow-700">
             <div className="flex space-x-10">
                 {Object.keys(timeLeft).map((interval) => (
                     <div key={interval} className="flex flex-col items-center gap-2">
@@ -51,6 +52,7 @@ const Countdown= ({targetDate}) => {
             </div>
             {Object.keys(timeLeft).length === 0 && <span>Time's up!</span>}
         </div>
+    </section>
   );
 
 }

@@ -1,4 +1,3 @@
-import Countdown from "./componentes-encabezado/encabeza-cuenta";
 
 export default function Portada () {
 
@@ -19,9 +18,6 @@ export default function Portada () {
               <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">ARELY</p>
               <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">&</p>
               <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">PATRICK</p>
-              <div className="mt-4 ">
-                <Countdown targetDate="2025-01-11T00:00:00" />
-              </div>
             </div>
           </section>
         </div>
