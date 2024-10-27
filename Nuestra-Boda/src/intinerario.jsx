@@ -35,7 +35,7 @@ export default function Intinerario() {
   };
 
   return (
-    <div className="p-7">
+    <div >
        <div className="flex flex-col items-center justify-center p-7">
         <Countdown targetDate="2025-01-11T00:00:00" />
         </div>

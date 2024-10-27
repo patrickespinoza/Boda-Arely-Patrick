@@ -2,12 +2,12 @@
 
 export default function Portada() {
   return (
-    <div className="w-full">
+    <div>
       <section className="relative w-full h-[calc(110vh-160px)] md:h-screen flex flex-col items-center justify-center text-white">
         <img
           src="/IMG_3539.JPG"
           alt="Fondo"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute w-full h-full object-cover"
         />
 
         <div className="relative bg-opacity-50 rounded-lg w-full h-full justify-center items-center flex flex-col p-4 gap-4">
@@ -20,5 +20,8 @@ export default function Portada() {
         </div>
       </section>
     </div>
+    
   );
 }
+
+// style={{ backgroundImage: 'url("/IMG_3539.JPG")', backgroundSize:'contain', backgroundRepeat:'no-repeat', backgroundPosition: 'center'}}
