@@ -33,11 +33,7 @@ export default function Intinerario() {
       console.error("Error en la solicitud:", error);
     }
   };
-  const playAudio = () => {
-    const audio = document.getElementById('background-audio');
-    audio.play();
-  };
-
+ 
 
   return (
     <div >

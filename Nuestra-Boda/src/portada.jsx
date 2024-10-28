@@ -1,17 +1,28 @@
-import React, { useEffect } from 'react';
+import React, { useRef, useState } from 'react';
+import { FaVolumeUp, FaVolumeMute } from 'react-icons/fa';
 
 export default function Portada() {
+  const audioRef = useRef(null);
+  const [isMuted, setIsMuted] = useState(false); 
 
   const handlePlayMusic = () => {
-    const audio = document.getElementById('background-audio');
-    audio.play().catch((error) => {
-      console.error("Error al reproducir el audio:", error);
-    });
+    if (audioRef.current) {
+      audioRef.current.play().catch((error) => {
+        console.error("Error al intentar reproducir el audio:", error);
+      });
+    }
+  };
+
+  const toggleMute = () => {
+    if (audioRef.current) {
+      audioRef.current.muted = !isMuted; 
+      setIsMuted(!isMuted); 
+    }
   };
 
   return (
     <div>
-      <audio id="background-audio" loop>
+      <audio ref={audioRef} loop>
         <source src="/allofme.mp3" type="audio/mpeg" />
         Tu navegador no soporta el elemento de audio.
       </audio>
@@ -29,11 +40,13 @@ export default function Portada() {
           <p className="font-cursiveDancing text-lg sm:text-2xl md:text-3xl lg:text-4xl" >ARELY</p>
           <p className="font-cursiveDancing text-lg sm:text-2xl md:text-3xl lg:text-4xl">&</p>
           <p className="font-cursiveDancing text-lg sm:text-2xl md:text-3xl lg:text-4xl">PATRICK</p>
-          <button 
-            onClick={handlePlayMusic} 
-            className="mt-4 bg-yellow-600 rounded-md p-3 w-32 h-8 text-white flex"
+
+          <button
+            onClick={handlePlayMusic}
+            className="absolute right-4 bottom-4 transform -translate-y-1/2 bg-yellow-600 p-2 rounded-full flex items-center justify-center"
+            aria-label="Reproducir Música"
           >
-            Música
+            <FaVolumeUp className="text-white" size={24} />
           </button>
         </div>
       </section>
