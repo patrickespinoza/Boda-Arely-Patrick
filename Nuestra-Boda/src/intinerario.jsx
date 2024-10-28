@@ -33,11 +33,19 @@ export default function Intinerario() {
       console.error("Error en la solicitud:", error);
     }
   };
+  const playAudio = () => {
+    const audio = document.getElementById('background-audio');
+    audio.play();
+  };
+
 
   return (
     <div >
        <div className="flex flex-col items-center justify-center p-7">
         <Countdown targetDate="2025-01-11T00:00:00" />
+        </div>
+        <div className="flex flex-col items-center justify-center">
+        <img src="/acepto.jpg" alt="acepto" />
         </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
