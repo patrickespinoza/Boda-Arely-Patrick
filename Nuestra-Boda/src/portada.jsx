@@ -1,8 +1,19 @@
 
 
 export default function Portada() {
+
+  const playAudio = () => {
+    const audio = document.getElementById('background-audio');
+    audio.play();
+  };
+
   return (
     <div>
+      <audio id="background-audio" loop>
+        <source src="/allofme.mp3" type="audio/mp3" />
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+      <button onClick={playAudio} className="hidden">Reproducir Música</button>
       <section className="relative w-full h-[calc(110vh-160px)] md:h-screen flex flex-col items-center justify-center text-white">
         <img
           src="/IMG_3539.JPG"

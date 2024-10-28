@@ -64,8 +64,9 @@ export default function Intinerario() {
         </div>
 
         {/* Sección de Regalos */}
-        <div className="flex flex-col items-center justify-center gap-3 h-[700px] md:h-80 lg:h-[700px]" style={{ backgroundImage: 'url("/okay.png")', backgroundSize:'cover'}}>
-          <h1 className="flex ">Itinerario</h1>
+        <div className="flex flex-col items-center justify-center gap-3 ">
+          <h1>Itinerario</h1>
+          <img src="/okay.png" alt="itinerario" className="h-[700px] md:h-80 lg:h-[700px]"/>
         </div>
 
         {/* Sección de Confirmación de Asistencia */}
