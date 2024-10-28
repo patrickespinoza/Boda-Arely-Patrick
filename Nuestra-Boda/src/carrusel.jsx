@@ -29,7 +29,7 @@ const Carousel = () => {
 
   return (
     <section> 
-    <div className="relative w-[400px] h-[400px] overflow-hidden flex flex-col items-center">
+    <div className="relative w-[380px] h-[400px] overflow-hidden flex flex-col items-center">
       <div
         ref={carouselRef}
         className="absolute flex transition-transform duration-2000 ease-in-out"

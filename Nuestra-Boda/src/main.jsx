@@ -6,7 +6,7 @@ import Intinerario from './intinerario'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <main>
-    <div>
+    <div >
       <Portada/>
       <Intinerario/>
     </div>
