@@ -37,9 +37,9 @@ export default function Portada() {
           <h1 className="roboto-black p-4 text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-serif">
             Nuestra Boda
           </h1>
-          <p className="font-cursiveDancing text-lg sm:text-2xl md:text-3xl lg:text-4xl" >ARELY</p>
-          <p className="font-cursiveDancing text-lg sm:text-2xl md:text-3xl lg:text-4xl">&</p>
-          <p className="font-cursiveDancing text-lg sm:text-2xl md:text-3xl lg:text-4xl">PATRICK</p>
+          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl" >ARELY</p>
+          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl">&</p>
+          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl">PATRICK</p>
 
           <button
             onClick={handlePlayMusic}

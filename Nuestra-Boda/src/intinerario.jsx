@@ -68,10 +68,51 @@ export default function Intinerario() {
         </div>
 
         {/* Sección de Regalos */}
-        <div className="flex flex-col items-center justify-center gap-3 ">
-          <h1>Itinerario</h1>
-          <img src="/okay.png" alt="itinerario" className="h-[700px] md:h-80 lg:h-[700px]"/>
-        </div>
+        <div className="font-playfair">
+  <h1 className="text-center text-4xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">Itinerario</h1>
+  <div className="grid grid-cols-3 gap-6 px-4 sm:px-12 md:px-32">
+    {/* Columna 1 */}
+    <div className="flex flex-col gap-3">
+      <div className="flex-grow">
+        <p className="text-left">Fotografias</p>
+        <img src="./camara-fotografica.png" alt="fotografia" className="h-20 w-20 mx-1 md:h-28 sm:w-28" />
+        <p className="text-left">4:00 pm - 4:30 pm</p>
+      </div>
+      <div className="flex-grow">
+        <p className="text-right">Comida</p>
+        <img src="./cena-romantica.png" alt="comida" className="h-20 w-20 ml-auto md:h-28 sm:w-28" />
+        <p className="text-right">5:00 pm - 6:00 pm</p>
+      </div>
+      <div className="flex-grow">
+        <p className="text-left">Baile</p>
+        <img src="./bola-de-disco.png" alt="baile" className="h-20 w-20  mx-0 md:h-28 sm:w-28" />
+        <p className="text-left">6:30 pm - 9:30 pm</p>
+      </div>
+    </div>
+
+    {/* Columna separadora */}
+    <div className="flex flex-col items-center">
+      <div className="h-full border-l-4 border-black"></div>
+    </div>
+
+    {/* Columna 3 */}
+    <div className="flex flex-col gap-3 py-12">
+      <div className="flex-grow">
+        <p className="text-right">Llegada de Novios</p>
+        <img src="./arco-de-la-boda.png" alt="arco" className="h-20 w-20  ml-16 md:h-28 sm:w-28" />
+        <p className="text-right">4:30 pm - 5:00 pm</p>
+      </div>
+      <div className="flex-grow">
+        <p className="text-left">Pastel</p>
+        <img src="./pastel.png" alt="pastel" className="h-20 w-20  md:h-28 sm:w-28" />
+        <p className="text-left">6:00 pm - 6:30 pm</p>
+      </div>
+      <div className="flex-grow">
+        
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Sección de Confirmación de Asistencia */}
         <div className="flex flex-col items-center justify-center gap-3 h-96 md:h-80 lg:h-[700px]" style={{ backgroundImage: 'url("/ok.png")', backgroundSize:'cover'}}>
