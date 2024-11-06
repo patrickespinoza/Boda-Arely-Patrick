@@ -68,7 +68,7 @@ export default function Intinerario() {
         </div>
 
         {/* Sección de Regalos */}
-        <div className="font-playfair">
+        <div className="font-playfair flex flex-col items-center justify-center gap-3">
   <h1 className="text-center text-4xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">Itinerario</h1>
   <div className="grid grid-cols-3 gap-6 px-4 sm:px-12 md:px-12">
     {/* Columna 1 */}
