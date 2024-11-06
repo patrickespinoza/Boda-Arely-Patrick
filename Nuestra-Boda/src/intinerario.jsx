@@ -70,23 +70,23 @@ export default function Intinerario() {
         {/* Sección de Regalos */}
         <div className="font-playfair">
   <h1 className="text-center text-4xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">Itinerario</h1>
-  <div className="grid grid-cols-3 gap-6 px-4 sm:px-12 md:px-32">
+  <div className="grid grid-cols-3 gap-6 px-4 sm:px-12 md:px-12">
     {/* Columna 1 */}
     <div className="flex flex-col gap-3">
       <div className="flex-grow">
-        <p className="text-left">Fotografias</p>
+        <p className="text-left text-[16px] lg:text-[19px] font-bold">Fotografias</p>
         <img src="./camara-fotografica.png" alt="fotografia" className="h-20 w-20 mx-1 md:h-28 sm:w-28" />
-        <p className="text-left">4:00 pm - 4:30 pm</p>
+        <p className="text-left text-[14px] lg:text-[17px]">4:00 pm - 4:30 pm</p>
       </div>
       <div className="flex-grow">
-        <p className="text-right">Comida</p>
+        <p className="text-right text-[16px] lg:text-[19px] font-bold">Comida</p>
         <img src="./cena-romantica.png" alt="comida" className="h-20 w-20 ml-auto md:h-28 sm:w-28" />
-        <p className="text-right">5:00 pm - 6:00 pm</p>
+        <p className="text-right text-[14px] lg:text-[17px]">5:00 pm - 6:00 pm</p>
       </div>
       <div className="flex-grow">
-        <p className="text-left">Baile</p>
+        <p className="text-left text-[16px] lg:text-[19px] font-bold">Baile</p>
         <img src="./bola-de-disco.png" alt="baile" className="h-20 w-20  mx-0 md:h-28 sm:w-28" />
-        <p className="text-left">6:30 pm - 9:30 pm</p>
+        <p className="text-left text-[14px] lg:text-[17px]">6:30 pm - 9:30 pm</p>
       </div>
     </div>
 
@@ -98,14 +98,14 @@ export default function Intinerario() {
     {/* Columna 3 */}
     <div className="flex flex-col gap-3 py-12">
       <div className="flex-grow">
-        <p className="text-right">Llegada de Novios</p>
+        <p className="text-right text-[16px] lg:text-[19px] font-bold">Llegada de Novios</p>
         <img src="./arco-de-la-boda.png" alt="arco" className="h-20 w-20  ml-16 md:h-28 sm:w-28" />
-        <p className="text-right">4:30 pm - 5:00 pm</p>
+        <p className="text-right text-[14px] lg:text-[17px]">4:30 pm - 5:00 pm</p>
       </div>
       <div className="flex-grow">
-        <p className="text-left">Pastel</p>
+        <p className="text-left text-[16px] lg:text-[19px] font-bold">Pastel</p>
         <img src="./pastel.png" alt="pastel" className="h-20 w-20  md:h-28 sm:w-28" />
-        <p className="text-left">6:00 pm - 6:30 pm</p>
+        <p className="text-left text-[14px] lg:text-[17px]">6:00 pm - 6:30 pm</p>
       </div>
       <div className="flex-grow">
         
