@@ -99,7 +99,7 @@ export default function Intinerario() {
     <div className="flex flex-col gap-3 py-12">
       <div className="flex-grow">
         <p className="text-right text-[14px] lg:text-[19px] font-bold">Llegada de Novios</p>
-        <img src="./arco-de-la-boda.png" alt="arco" className="h-20 w-20  ml-16 md:h-28 sm:w-28" />
+        <img src="./arco-de-la-boda.png" alt="arco" className="h-20 w-20  ml-auto md:h-28 sm:w-28" />
         <p className="text-right text-[11px] lg:text-[17px]">4:30 pm - 5:00 pm</p>
       </div>
       <div className="flex-grow">
