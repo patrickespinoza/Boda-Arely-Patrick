@@ -79,8 +79,8 @@ export default function Intinerario() {
         <p className="text-left text-[11px] lg:text-[17px] ml-2">4:00 pm - 4:30 pm</p>
       </div>
       <div className="flex-grow">
-        <p className="text-right text-[16px] lg:text-[19px] font-bold ml-36">Comida</p>
-        <img src="./cena-romantica.png" alt="comida" className="h-20 w-20 ml-32 md:h-28 sm:w-28" />
+        <p className="text-right text-[16px] lg:text-[19px] font-bold -mr-11">Comida</p>
+        <img src="./cena-romantica.png" alt="comida" className="h-20 w-20 ml-28 md:h-28 sm:w-28" />
         <p className="text-right text-[11px] lg:text-[17px] -mr-16">5:00 pm - 6:00 pm</p>
       </div>
       <div className="flex-grow">
@@ -103,9 +103,9 @@ export default function Intinerario() {
         <p className="text-right text-[11px] lg:text-[17px]">4:30 pm - 5:00 pm</p>
       </div>
       <div className="flex-grow">
-        <p className="text-left text-[16px] lg:text-[19px] font-bold -ml-16">Pastel</p>
-        <img src="./pastel.png" alt="pastel" className="-ml-20  h-20 w-20  md:h-28 sm:w-28" />
-        <p className="text-left text-[11px] lg:text-[17px] -ml-20">6:00 pm - 6:30 pm</p>
+        <p className="text-left text-[16px] lg:text-[19px] font-bold -ml-14">Pastel</p>
+        <img src="./pastel.png" alt="pastel" className="-ml-16  h-20 w-20  md:h-28 sm:w-28" />
+        <p className="text-left text-[11px] lg:text-[17px] -ml-16">6:00 pm - 6:30 pm</p>
       </div>
       <div className="flex-grow">
         
