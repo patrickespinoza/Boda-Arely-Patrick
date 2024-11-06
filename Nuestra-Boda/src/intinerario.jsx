@@ -98,9 +98,9 @@ export default function Intinerario() {
     {/* Columna 3 */}
     <div className="flex flex-col gap-3 py-12">
       <div className="flex-grow">
-        <p className="text-right text-[14px] lg:text-[19px] font-bold mr-6">Llegada de Novios</p>
-        <img src="./arco-de-la-boda.png" alt="arco" className="h-20 w-20  ml-12 md:h-28 sm:w-28" />
-        <p className="text-right text-[11px] lg:text-[17px]">4:30 pm - 5:00 pm</p>
+        <p className="text-left text-[14px] lg:text-[19px] font-bold -ml-2">Llegada de Novios</p>
+        <img src="./arco-de-la-boda.png" alt="arco" className="h-20 w-20  ml-7 md:h-28 sm:w-28" />
+        <p className="text-left text-[11px] lg:text-[17px] ml-5">4:30 pm - 5:00 pm</p>
       </div>
       <div className="flex-grow">
         <p className="text-left text-[16px] lg:text-[19px] font-bold -ml-14">Pastel</p>
