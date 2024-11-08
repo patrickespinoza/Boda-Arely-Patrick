@@ -44,7 +44,7 @@ export default function Intinerario() {
         <img src="/acepto.jpg" alt="acepto" />
         </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  ">
         <div className="flex flex-col items-center justify-center gap-3 h-96 md:h-96 lg:h-[700px]" style={{ backgroundImage: 'url("/aa.JPG")', backgroundSize:'contain'}}>
           <h1 className="text-2xl sm:text-3xl font-bold p-5 font-playfair">CELEBRACION</h1>
           <p className="text-lg sm:text-xl p-3 font-cursiveDancing">11 ENERO 5:00 PM</p>
@@ -55,20 +55,20 @@ export default function Intinerario() {
         </div>
 
         {/* Sección de Vestimenta */}
-        <div className="flex flex-col items-center justify-center gap-3 h-96 md:h-80 lg:h-[700px]" style={{ backgroundImage: 'url("/aa.JPG")', backgroundSize:'cover'}}>
+        <div className="flex flex-col items-center justify-center h-96 md:h-80 lg:h-[700px]" style={{ backgroundImage: 'url("/aa.JPG")', backgroundSize:'cover'}}>
           <h1 className="text-xl sm:text-5xl font-bold p-5 font-playfair ">VESTIMENTA</h1>
           <p className="text-lg sm:text-4xl p-7 text-center ">Formal</p>
           {/* <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/pareja-de-boda.png" alt="dress code" /> */}
         </div>
 
         {/* Sección de Momentos */}
-        <div className="flex flex-col items-center justify-center gap-3" >
+        <div className="flex flex-col items-center justify-center" >
           <h1 className="text-xl sm:text-2xl font-bold p-5 font-playfair">NUESTROS MOMENTOS</h1>
           <Carousel />
         </div>
 
         {/* Sección de Regalos */}
-  <div className="font-playfair flex flex-col items-center justify-center gap-3">
+  <div className="font-playfair flex flex-col items-center justify-center ">
   <h1 className="text-center text-4xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">Itinerario</h1>
   <div className="grid grid-cols-3 gap-6">
     {/* Columna 1 */}
