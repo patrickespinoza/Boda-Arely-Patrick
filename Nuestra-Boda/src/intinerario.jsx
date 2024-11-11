@@ -45,9 +45,10 @@ export default function Intinerario() {
         </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  ">
-        <div className="flex flex-col items-center justify-center gap-3 h-96 md:h-96 lg:h-[700px]" style={{ backgroundImage: 'url("/nues.png")', backgroundSize:'cover'}}>
+        <div className="flex flex-col items-center justify-center gap-3 h-96 md:h-96 lg:h-[700px]" >
           <h1 className="text-2xl sm:text-3xl font-bold p-5 font-playfair">CELEBRACION</h1>
-          <p className="text-lg sm:text-xl p-3 font-cursiveDancing">11 ENERO 5:00 PM</p>
+          <p className="text-xl sm:text-xl font-cursiveDancing">11 | Enero | 2025</p>
+          <p className="text-xl sm:text-xl font-cursiveDancing"> 4:30 PM</p>
           {/* <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/tarta-de-boda.png" alt="imagen del salon" /> */}
           <p className="p-3 text-center font-cursiveDancing">Salon Maria Bonita Event Center</p>
           <p className="p-3 text-center font-cursiveDancing">C.2 Pte. 905, Libertad, 72130 Heroica Puebla de Zaragoza, Pue</p>
@@ -55,7 +56,7 @@ export default function Intinerario() {
         </div>
 
         {/* Sección de Vestimenta */}
-        <div className="flex flex-col items-center justify-center h-96 md:h-80 lg:h-[700px]" style={{ backgroundImage: 'url("/aa.JPG")', backgroundSize:'cover'}}>
+        <div className="flex flex-col items-center justify-center h-96 md:h-80 lg:h-[700px] bg-black text-white" >
           <h1 className="text-xl sm:text-5xl font-bold p-5 font-playfair ">VESTIMENTA</h1>
           <p className="text-lg sm:text-4xl p-7 text-center ">Formal</p>
           {/* <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/pareja-de-boda.png" alt="dress code" /> */}

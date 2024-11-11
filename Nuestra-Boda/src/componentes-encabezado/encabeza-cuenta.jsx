@@ -1,60 +1,50 @@
 import { useEffect, useState } from "react";
 
-const Countdown= ({targetDate}) => {
-    const calculateTime = () => {
-        const difference = +new Date(targetDate) - +new Date();
-        let timeLeft = {};
+const Countdown = ({ targetDate }) => {
+  const calculateTime = () => {
+    const difference = +new Date(targetDate) - +new Date();
+    let timeLeft = {};
 
-      if (difference > 0) {
-        timeLeft = {
-            dias :Math.floor(difference / (1000 * 60 * 60 * 24)),
-            horas: Math.floor((difference / (1000 * 60 * 60)) % 24),
-            minutos:Math.floor((difference / 1000 / 60 ) % 60),
-            segundos: Math.floor((difference / 1000) % 60),
-        }
-      }  
-      return timeLeft
-    };
-    const [timeLeft, setTimeLeft] = useState(calculateTime());
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setTimeLeft(calculateTime());
-        },1000)
-
-        return () => clearTimeout(timer)
-    });;
-
-    const timerComponents = [];
-
-  Object.keys(timeLeft).forEach((interval, index, array) => {
-    if (!timeLeft[interval]) {
-      return;
+    if (difference > 0) {
+      timeLeft = {
+        dias: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        horas: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutos: Math.floor((difference / 1000 / 60) % 60),
+        segundos: Math.floor((difference / 1000) % 60),
+      };
     }
+    return timeLeft;
+  };
 
-    timerComponents.push(
-      <span key={interval}>
-        {timeLeft[interval]} {interval}
-        {index < array.length -1 ? " | " : ""}
-      </span>
-    );
-  });
+  const [timeLeft, setTimeLeft] = useState(calculateTime());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTime());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, [timeLeft]);
+
   return (
     <section>
-    <div className="p-2 sm:text-lg md:text-4xl lg:text-5xl text-black flex flex-col items-center rounded-lg border-8 font-cursiveDancing">
-            <div className="flex space-x-10">
-                {Object.keys(timeLeft).map((interval) => (
-                    <div key={interval} className="flex flex-col items-center gap-2">
-                        <span className="">{timeLeft[interval]}</span>
-                        <span className=" capitalize">{interval}</span>
-                    </div>
-                ))}
+      <div className="p-2 sm:text-lg md:text-4xl lg:text-5xl text-black flex flex-col items-center rounded-lg font-cursiveDancing">
+        <div className="flex space-x-10">
+          {Object.keys(timeLeft).map((interval) => (
+            <div key={interval} className="flex flex-col items-center gap-2">
+              {/* Estilo para los números */}
+              <span className="bg-yellow-800 text-white p-2 w-12 h-12 rounded-full text-2xl flex items-center justify-center">
+                {timeLeft[interval]}
+              </span>
+              {/* Estilo para las etiquetas (días, horas, minutos, segundos) */}
+              <span className="bg-white text-black capitalize">{interval}</span>
             </div>
-            {Object.keys(timeLeft).length === 0 && <span>Time's up!</span>}
+          ))}
         </div>
+        {Object.keys(timeLeft).length === 0 && <span>Time's up!</span>}
+      </div>
     </section>
   );
+};
 
-}
-
-export default Countdown
+export default Countdown;
