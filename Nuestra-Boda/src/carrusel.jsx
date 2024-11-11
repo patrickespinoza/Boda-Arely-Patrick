@@ -16,7 +16,7 @@ const Carousel = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000); // Cambia de imagen cada 10 segundos
+    }, 4000); // Cambia de imagen cada 10 segundos
 
     return () => clearInterval(intervalId); // Limpieza del intervalo al desmontar
   }, []);
@@ -34,7 +34,7 @@ const Carousel = () => {
     <div className="relative w-[380px] h-[400px] overflow-hidden flex flex-col items-center">
       <div
         ref={carouselRef}
-        className="absolute flex transition-transform duration-[5000ms] ease-in-out"
+        className="absolute flex transition-transform duration-[1000ms] ease-in-out"
         style={{ transform: `translateX(-${index * 100}%)`, width: `${images.length * 100}%` }}
       >
         {images.map((src, i) => (
