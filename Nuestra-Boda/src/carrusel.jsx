@@ -6,10 +6,8 @@ const Carousel = () => {
   
   // Lista de imágenes para el carrusel
   const images = [
-    '/Manophoto.jpg', 
-    '/manophone2.jpg', 
+    '/Manophoto.jpg',  
     '/manophoto3.jpg',
-    '/pedidaphoto.jpg',
     '/pedidaphoto2.jpg',
     '/pedidaphoto3.jpg',
 
@@ -36,7 +34,7 @@ const Carousel = () => {
     <div className="relative w-[380px] h-[400px] overflow-hidden flex flex-col items-center">
       <div
         ref={carouselRef}
-        className="absolute flex transition-transform duration-2000 ease-in-out"
+        className="absolute flex transition-transform duration-[5000ms] ease-in-out"
         style={{ transform: `translateX(-${index * 100}%)`, width: `${images.length * 100}%` }}
       >
         {images.map((src, i) => (
