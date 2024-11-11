@@ -6,9 +6,13 @@ const Carousel = () => {
   
   // Lista de imágenes para el carrusel
   const images = [
-    '/IMG_3538.JPG', 
-    '/IMG_3539.JPG', 
-    '/nosotros.jpg'
+    '/Manophoto.jpg', 
+    '/manophone2.jpg', 
+    '/manophoto3.jpg',
+    '/pedidaphoto.jpg',
+    '/pedidaphoto2.jpg',
+    '/pedidaphoto3.jpg',
+
   ];
 
   useEffect(() => {
