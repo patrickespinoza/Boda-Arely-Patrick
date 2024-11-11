@@ -23,7 +23,7 @@ export default function Portada() {
   return (
     <div>
       <audio ref={audioRef} loop>
-        <source src="/allofme.mp3" type="audio/mpeg" />
+        <source src="/TylerShaw.mp3" type="audio/mpeg" />
         Tu navegador no soporta el elemento de audio.
       </audio>
       <section className="relative w-full h-[calc(110vh-160px)] md:h-screen flex flex-col items-center justify-center text-white">
