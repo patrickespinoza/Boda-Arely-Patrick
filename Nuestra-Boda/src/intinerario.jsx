@@ -13,7 +13,7 @@ export default function Intinerario() {
     const data = { name, numPeople };
 
     try {
-      const response = await fetch("http://localhost:5000/confirmar-asistencia", {
+      const response = await fetch("https://boda-backent-arely-patrick.onrender.com/confirmar-asistencia", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
