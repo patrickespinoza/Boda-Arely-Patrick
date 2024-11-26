@@ -15,7 +15,7 @@ export default function Intinerario() {
         <Countdown targetDate="2025-01-11T00:00:00" />
         </div>
         <div className="flex flex-col items-center justify-center">
-        <img src="/acepto3.jpg" alt="acepto" />
+        <img src="/acepto2.jpg" alt="acepto" />
         </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  ">
