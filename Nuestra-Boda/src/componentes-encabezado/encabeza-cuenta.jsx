@@ -33,7 +33,7 @@ const Countdown = ({ targetDate }) => {
           {Object.keys(timeLeft).map((interval) => (
             <div key={interval} className="flex flex-col items-center gap-2">
               {/* Estilo para los números */}
-              <span className="bg-yellow-600 text-white p-2 w-12 h-12 rounded-full text-2xl flex items-center justify-center">
+              <span className="bg-yellow-600 text-white font-bold p-2 w-12 h-12 rounded-full text-2xl flex items-center justify-center">
                 {timeLeft[interval]}
               </span>
               {/* Estilo para las etiquetas (días, horas, minutos, segundos) */}
