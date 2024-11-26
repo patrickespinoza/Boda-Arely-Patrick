@@ -6,10 +6,15 @@ const Carousel = () => {
   
   // Lista de imágenes para el carrusel
   const images = [
-    '/Manophoto.jpg',  
+    '/cargadafot.jpeg',
+    '/Manophoto.jpg', 
+    '/arcofoto.jpeg',
     '/manophoto3.jpg',
+    '/floresfoto.jpeg', 
     '/pedidaphoto2.jpg',
     '/pedidaphoto3.jpg',
+    
+
 
   ];
 
