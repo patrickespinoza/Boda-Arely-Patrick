@@ -28,7 +28,7 @@ export default function Portada() {
       </audio>
       <section className="relative w-full h-[calc(110vh-160px)] md:h-screen flex flex-col items-center justify-center text-white">
         <img
-          src="/floresfoto.jpeg"
+          src="/puertafoto.jpeg"
           alt="Fondo"
           className="absolute w-full h-full object-cover"
         />
