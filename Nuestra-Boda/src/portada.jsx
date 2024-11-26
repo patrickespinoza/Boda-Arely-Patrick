@@ -40,7 +40,7 @@ export default function Portada() {
           <p className="font-serif text-2xl sm:text-2xl md:text-3xl lg:text-4xl" >11 |
              01 | 2025
           </p>
-          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl">Patrick & Arely</p>
+          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl">Arely & Patrick</p>
 
           <button
             onClick={handlePlayMusic}
