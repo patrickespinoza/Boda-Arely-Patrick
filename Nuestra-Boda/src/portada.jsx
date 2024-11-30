@@ -56,4 +56,4 @@ export default function Portada() {
   );
 }
 
-// style={{ backgroundImage: 'url("/IMG_3539.JPG")', backgroundSize:'contain', backgroundRepeat:'no-repeat', backgroundPosition: 'center'}}
+
