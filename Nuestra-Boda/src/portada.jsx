@@ -24,7 +24,7 @@ export default function Portada() {
     <div>
       <audio ref={audioRef} loop>
         <source src="/TylerShaw.mp3" type="audio/mpeg" />
-        Tu navegador no soporta el elemento de audio.
+        Tu navegador no soporta el elemento de audio para reproducir.
       </audio>
       <section className="relative w-full h-[calc(110vh-160px)] md:h-screen flex flex-col items-center justify-center text-white">
         <img
