@@ -90,7 +90,7 @@ export default function Intinerario() {
 </div>
 
 {/* Sección de Confirmación de Asistencia */}
-<div className="flex flex-col items-center justify-center gap-3 h-96 md:h-80 lg:h-[700px]" style={{ backgroundImage: 'url("/aa.JPG")', backgroundSize:'contain'}}>
+<div className="flex flex-col items-center justify-center gap-3 h-96 md:h-80 lg:h-[700px]">
   <h1 className="text-xl sm:text-2xl font-bold p-5 font-playfair">CONFIRMAR ASISTENCIA</h1>
   <img className="h-24 w-24 sm:h-28 sm:w-28 p-3" src="/anillos-de-boda.png" alt="dress code" />
   <p className="text-lg sm:text-xl p-7 text-center font-cursiveDancing">Confirma tu asistencia antes de 20 de diciembre</p>
