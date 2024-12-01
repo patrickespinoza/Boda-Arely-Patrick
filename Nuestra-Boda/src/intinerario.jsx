@@ -61,7 +61,7 @@ export default function Intinerario() {
       <div className="flex-grow">
         <p className="text-left text-[16px] lg:text-[19px] font-bold ml-5">Baile</p>
         <img src="./bola-de-disco.png" alt="baile" className="ml-2 h-20 w-20  mx-0 md:h-28 sm:w-28" />
-        <p className="text-left text-[11px] lg:text-[17px] ml-2">6:30 pm - 9:30 pm</p>
+        <p className="text-left text-[11px] lg:text-[17px] ml-2">6:30 pm - 11:30 pm</p>
       </div>
     </div>
 
